@@ -1,0 +1,251 @@
+[
+    {
+       "filter_id":1,
+        "products":[{ 
+                      "product_id":1,
+                      "product_name":"WashingMachine",
+                      "imagesrc":"../Images/washingmachine.jpg",
+                      "price":45000
+                    },
+                    {
+                    "product_id":2,
+                     "product_name":"Sonyledtv",
+                     "imagesrc":"../Images/sonyledtv.jpg",
+                     "price":125000
+
+                    },
+                    {
+                    "product_id":3,
+                     "product_name":"Aircontioner",
+                     "imagesrc":"../Images/airconditioner.jpg",
+                     "price":38000
+                    },
+                    {
+                        "product_id":4,
+                        "product_name":"MicrowaveOven",
+                        "imagesrc":"../Images/samsungmicrowaven.jpg",
+                        "price":35000
+                    },
+                    {
+                        "product_id":5,
+                        "product_name":"CoffeeBlinder",
+                        "imagesrc":"../Images/coffeeblinder.jpg",
+                        "price":28000               
+                    },
+                    {
+                        "product_id":6,
+                        "product_name":"Tablefan",
+                        "imagesrc":"../Images/Tablefan.jpg",
+                        "price":2500
+                    }
+                    
+
+        ]},
+        {
+
+             "filter_id":2,
+             "products":[{
+                           "product_id":7,
+                           "product_name":"Mens Shirt",
+                           "imagesrc":"../Images/menswear1.jpg",
+                           "price":1899
+                         },
+                         {
+                            "product_id":8,
+                            "product_name":"Mens Jean",
+                            "imagesrc":"../Images/Mens Jean.jpg",
+                            "price":1499
+                         },
+                         {
+                            "product_id":9,
+                            "product_name":"Cotton Shirt",
+                            "imagesrc":"../Images/MensCotton.jpg",
+                            "price":1799
+                         },
+                         {
+                            "product_id":10,
+                            "product_name":"Mens Shorts",
+                            "imagesrc":"../Images/menshorts.jpg",
+                            "price":1399
+                         },
+                         {
+                            "product_id":11,
+                            "product_name":"Mens Casual",
+                            "imagesrc":"../Images/menswear5.jpg",
+                            "price":999
+                         },
+                         {
+                            "product_id":12,
+                            "product_name":"Mens Jocket",
+                            "imagesrc":"../Images/MenJocket.jpg",
+                            "price":1200
+                         }
+            ]
+        
+    }, 
+    {   "filter_id":3,
+         "products":[{
+                        "product_id":13,
+                        "product_name":"Chicken biriyani",
+                        "imagesrc":"../Images/chickenbiriyani.jpg",
+                        "price":249
+                    },
+                    {
+                        "product_id":14,
+                        "product_name":"Burger",
+                        "imagesrc":"../Images/burger.jpg",
+                        "price":999
+                    },
+                    {
+                        "product_id":15,
+                        "product_name":"Pizza",
+                        "imagesrc":"../Images/pizza.jpg",
+                        "price":899
+                    },
+                    {
+                        "product_id":16,
+                        "product_name":"Noodles",
+                        "imagesrc":"../Images/noodles.jpg",
+                        "price":399
+                    },
+                    {
+                        "product_id":17,
+                        "product_name":"Dosa",
+                        "imagesrc":"../Images/Dosa.jpg",
+                        "price":149
+                    },
+                    {
+                        "product_id":18,
+                        "product_name":"Idly",
+                        "imagesrc":"../Images/Idly.jpg",
+                        "price":180
+                    }
+                  ]
+        
+    },
+    {
+      "filter_id":4,
+      "products":[{
+                     "product_id":19,
+                     "product_name":"ChemistryBook",
+                     "imagesrc":"../Images/book1.jpg",
+                     "price":200
+                  },
+                  {
+                     "product_id":20,
+                     "product_name":"TimeTheBook",
+                     "imagesrc":"../Images/book2.jpg",
+                     "price":300
+                  },
+                  {
+                     "product_id":21,
+                     "product_name":"IndianLawbooks",
+                     "imagesrc":"../Images/book3.jpg",
+                     "price":500
+                  },
+                  {
+                     "product_id":22,
+                     "product_name":"NovelBooks",
+                     "imagesrc":"../Images/book4.jpg",
+                     "price":349
+                  },
+                  {
+                     "product_id":23,
+                     "product_name":"The Velocity",
+                     "imagesrc":"../Images/TheVelocity.jpg",
+                     "price":500
+                  },
+                  {
+                     "product_id":24,
+                     "product_name":"BusinessBook",
+                     "imagesrc":"../Images/Businessbook.jpg",
+                     "price":600
+                  }
+               ]
+
+    },
+    {
+      "filter_id":5,
+      "products":[{
+                    "product_id":25,
+                    "product_name":"ChildrenMiniToy",
+                    "imagesrc":"../Images/toy1.jpg",
+                    "price":1500
+                 },
+                 {
+                    "product_id":26,
+                    "product_name":"BabyBornToy",
+                    "imagesrc":"../Images/toy2.jpg",
+                    "price":2000
+                 },
+                 {
+                     "product_id":27,
+                     "product_name":"MiniTiffinBox",
+                     "imagesrc":"../Images/toy3.jpg",
+                     "price":899
+                 },
+                 {
+                      "product_id":28,
+                      "product_name":"BabyGirlToy",
+                      "imagesrc":"../Images/toy4.jpg",
+                      "price":1200
+                 },
+                 {
+                     "product_id":29,
+                     "product_name":"MiniMotors",
+                     "imagesrc":"../Images/MiniMotor.jpg",
+                     "price":2500
+                  },
+                  {
+                     "product_id":30,
+                     "product_name":"CaptianAmericaToy",
+                     "imagesrc":"../Images/CaptainAmerica.jpg",
+                     "price":3000
+                  }
+
+               ]
+    },
+     {
+
+             "filter_id":6,
+             "products":[{
+                           "product_id":31,
+                           "product_name":"Womens Tshirt",
+                           "imagesrc":"../Images/womenTshirt.jpg",
+                           "price":1899
+                         },
+                         {
+                            "product_id":32,
+                            "product_name":"Womens Sweater",
+                            "imagesrc":"../Images/Womens Sweater.jpg",
+                            "price":1499
+                         },
+                         {
+                            "product_id":33,
+                            "product_name":"Cotton Saree",
+                            "imagesrc":"../Images/saree 2.jpg",
+                            "price":1799
+                         },
+                         {
+                            "product_id":34,
+                            "product_name":"Womens Jeans",
+                            "imagesrc":"../Images/womenjean.jpg",
+                            "price":1399
+                         },
+                         {
+                            "product_id":35,
+                            "product_name":"Womens Salwan",
+                            "imagesrc":"../Images/salwan.jpg",
+                            "price":999
+                         },
+                         {
+                            "product_id":36,
+                            "product_name":"Womens Skirt ",
+                            "imagesrc":"../Images/womenskirt.jpg",
+                            "price":1200
+                         }
+            ]
+        
+    }
+    
+]

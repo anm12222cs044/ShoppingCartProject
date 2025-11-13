@@ -1,0 +1,393 @@
+#main
+{
+            width: 100%;
+            min-height: 645px;
+            background-color: gray;
+            border: 2px solid red;   
+            margin: 20px auto;       
+            display: flex;
+            flex-direction: column;
+} 
+.header
+{
+            width: 960px;
+            height: 250px;
+            margin:auto;
+            background-image: linear-gradient(orange);  
+            border-color: 2px solid red;
+            position: relative;
+            text-align: center;
+            z-index: 1;
+        
+            
+        }
+        .header #head
+        {
+            
+            float: right;
+            width: 790px;
+            height: 100%;
+            padding-top: 70px;
+            box-sizing: border-box;
+            z-index: 2;
+    
+        }
+         .header>#head h1
+         {
+
+            color: white;
+            font-size: 60px;
+            font-weight: 800;
+            z-index: 6;
+         }
+.header img
+{
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin-top: 50px;
+            margin-left: 20px;
+            z-index: 1;
+
+        }
+#truck{
+           width: 250px;
+           height: 270px;
+           right: 0px;
+           position: absolute;
+           bottom: 0px;
+           object-fit: contain;
+           object-position: 0px 80px;
+           animation: moveTruck 8s linear infinite;
+           z-index: 1;
+  
+}
+#bike{
+          width: 250px;
+          height: 250px;
+          bottom: 0px;
+          left: 0px;
+          object-fit: contain;
+           object-position: 0px 39px;
+          position: absolute;
+          animation: moveBike 8s linear infinite;
+}
+
+
+@keyframes moveTruck {
+ 0%{right:0%; bottom: 0px; transform: scaleX(1);opacity: 1;}
+ 48%{right:67%;bottom: 0px; transform: scaleX(1);opacity:1;}
+ 49%{right:67%;bottom: 0px; transform: scaleX(1);opacity:0;}
+ 50%{right:67%; transform: scaleX(-1); opacity: 0;}
+ 55%{right:67%; transform: scaleX(-1);opacity:1;}
+ 95%{right:0%; transform: scaleX(-1);opacity:1;}
+ 100%{right:0%; transform: scaleX(-1);opacity: 1;}
+ 
+}
+@keyframes moveBike {
+ 0%{left:0%; transform: scaleX(1);opacity: 1;}
+ 48%{left:67%; transform: scaleX(1);opacity:1;}
+ 49%{left:67%; transform: scaleX(1);opacity:0;}
+ 50%{left:67%; transform: scaleX(-1); opacity: 0;}
+ 55%{left:67%; transform: scaleX(-1);opacity:1;}
+ 95%{left:0%; transform: scaleX(-1);opacity:1;}
+ 100%{left:0%; transform: scaleX(-1);opacity: 1;}
+ 
+}
+
+.second
+{
+            position: sticky;
+            top: 0%;
+            width: 960px;
+            height: 10vh;
+            margin:auto;
+            background-image: linear-gradient(lightgreen);
+            text-align: center;
+            border-color: 2px solid red;
+            z-index:3;
+            
+            
+        }
+
+
+.navbar-nav 
+{           
+            width:100%;
+            height:50px;
+            margin:0;
+            padding:0;
+            box-sizing:border-box; 
+        }
+.navbar-nav ul
+{
+            width:60%;
+            height:50px;
+            margin:auto;
+            padding:0;
+        }
+.navbar-nav li
+{
+            height:48px;
+            width:25%;
+            border-right:2px solid black;
+            padding:5px;
+            box-sizing:border-box;
+            list-style-type:none;
+            float:right;
+            margin:0;
+            text-align:center;
+        }
+        
+.footer{
+            width: 100%;
+            height: 250px;
+            background-color: brown;
+            border-color: 2px solid red;
+            text-align: center;
+            padding: 30px;
+            
+            
+        }
+.footer img{
+              width: 100px;
+              height: 100px;
+              margin-top: 100px;
+              margin-right: 950px;
+              border-radius: 10px;
+              border:solid skyblue;
+            }
+
+
+
+
+
+.carousel-item
+        {
+            margin:auto;
+            padding:0px;
+            box-sizing:border-box;
+            width:960px;
+            height:510px;
+            
+        
+        }
+.carousel-item img
+        {
+            
+            width: 410px;
+            height: 250px;
+            border-radius: 2px;
+            padding:15px ;
+        }
+
+.contactME-main{
+    display: flex;
+    margin: 90px 0px 0px 0px;
+}
+.footer-con{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    gap: 7px;
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: brown;
+    margin-left:60vh;
+    margin:380px;
+    margin-top: -120px;
+    padding:0px;
+}
+.myRow{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            min-height: 450px;
+            background-color: cadetblue;
+            padding: 80px;        
+        }
+.myRow img:hover{ 
+          transform: scale(1.2);
+          cursor: pointer;
+}
+
+
+#flexContainer
+{    
+     height: 350px;
+     overflow-y: auto;
+     position: fixed;
+     top: 0px;
+     right: 10px;
+     display: flex;
+     flex-direction: column;
+     width: 340px;
+     padding: 0px;
+     box-sizing: border-box;
+     z-index: 4;
+     
+
+}
+#flexContainer > div{
+    width: 340px;
+    height: 160px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border: 2px solid red;
+    
+}
+
+
+#flexContainer hr{
+    margin-bottom: 0px;
+    float: right;
+}
+
+#flexContainer button 
+{
+    float:right;
+    margin-right:10px;
+}
+#finalBill
+{
+    padding: 10px;
+    width: 550px;
+    overflow-x: auto;
+    border-radius: 3%;
+    box-sizing: border-box;
+    height: 1000px;
+    overflow-y: auto;
+    position: fixed;
+    top: 10px;
+    left: 300px;
+    z-index: 5;
+    display: none;
+    
+}
+#finalBill #billTable
+{
+    width: 530px;
+    height: 400px;
+    overflow-x: auto;
+    background-color: sienna;
+    border-radius: 3%;
+    padding: 0px;
+    overflow-y: auto;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+table{
+    border: 1px solid black;
+    margin: auto;
+}
+th,td{
+    border:1px solid black;
+}
+.table-total-heading 
+{
+    color:white;
+    text-align:center;
+}
+
+
+#bankInfo img
+{
+    width: 30px;
+    margin: auto auto auto 15px;
+    
+}
+#bankInfo input[type="password"]
+{
+    border-radius: 4px;
+}
+.table-product-heading
+{
+    width: 140px;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    color:white;
+    text-align: center;
+}
+.table-product-content
+{
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.table-product-items
+{
+    width: 50px;
+    height: 140px;
+    text-align: center;
+}
+.table-items-heading
+{
+    width:50px;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+#pay
+{
+    float: right;
+    background-color: green;
+}
+@media screen and(min-width: 960px) 
+{  .header{width: 960px;}
+   #main{height: 1000px;overflow-y: auto; background-repeat: repeat;width: 1000px;}
+.second{width:960px;}
+.myRow{width:960px;}
+.navbar-nav{width: 960px;}
+/*#demo{width: 960px;}*/
+.carousel-item{padding: 20px;}
+#finalBill{width: 550px; top: 10px;left: 350px;position: fixed;height: 560px;}
+#finalBill #bankInfo{width: 530px;padding: 10px; box-sizing: border-box;}
+#finalBill #billTable{width:530px;padding:30px;box-sizing: border-box;height: 310px;overflow-y: auto;}
+#finalBill #buttons{width: 530px;padding: 0px 10px 0px 10px;}
+#flexContainer{height: 430px;overflow-y: auto;}
+.carousel-item img{width:200px; height: 200px; object-fit: cover; border: 1px solid red;}
+.carousel-item img{width: 200px; height: 200px; margin-top: 3px; object-fit: cover; border: 1px solid red;}
+.footer{width: 960px;}
+.footer-con{width: 400px;float: right;} 
+}
+@media screen and (min-width:700px) and (max-width: 960px)
+{  .header{width: 630px; margin: auto;}
+#main{height: 800px;overflow-y: auto; background-repeat: repeat;width: 100%;}
+.carousel-item{padding: 20px;}
+.second{width:630px;}
+.myRow{width:630px;}
+.navbar-nav{width: 630px;}
+/*#demo{width: 630px;}*/
+.carousel-item{padding: 10px;}
+#finalBill{width: 550px; top: 10px;left: 350px;position: fixed;height: 560px;}
+#finalBill #bankInfo{width: 530px;padding: 10px; box-sizing: border-box;}
+#finalBill #billTable{width:530px;padding:30px;box-sizing: border-box;height: 310px;overflow-y: auto;}
+#finalBill #buttons{width: 530px;padding: 0px 10px 0px 10px;}
+#flexContainer{height: 200px;overflow-y: auto;}
+.carousel-item img{width:290px; height: 200px; object-fit: cover; border: 1px solid red;}
+.carousel-item img{width: 290px; height: 200px; margin-top: 3px; object-fit: cover; border: 1px solid red;}
+.footer{width: 630px;}
+.footer-con{width: 400px;float: right;} 
+       
+}
+
+
+
+        
+        
+        
+       
+       
+        
+        
+       

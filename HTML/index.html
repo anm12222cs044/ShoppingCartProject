@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <title>E-Commerce Website</title>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+   <!-- jQuery library -->
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+   <!-- Popper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+   <!-- Latest compiled JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="../CSS/style.css">
+
+    </head>
+    <body>
+        <div id="main">
+            <div class="header">
+
+                <img src="../Images/add-to-cart.jpeg">
+                <img src="../Images/deliverybike.png" id="bike">
+                <img src="../Images/deliverytruck.png" id="truck">
+               <div id="head" ><h1>Online Shopping</h1></div>
+            </div>
+            <div class="second">
+                <nav class="navbar navbar-expand-md navbar-light sticky-top" style="width:960px;height:auto;margin:auto;">
+                    <button class="navbar-toggler btn btn-primary" data-toggle="collapse" data-target="#demo">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="demo">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#" role="button"  onclick="displayItems(1)">HOME APPLIANCES</a></li>
+                            <li class="nav-item dropdown" style="width:158px;">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">COSTUMES</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" role="button" onclick="displayItems(2)">Men's Wear</a>
+                                    <a class="dropdown-item" role="button" onclick="displayItems(6)">Women's Wear</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#" role="button" onclick="displayItems(3)">FOODS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" role="button" onclick="displayItems(4)">BOOKS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" role="button" onclick="displayItems(5)">TOYS</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        
+<div class="myRow" style="width:960px;height:auto;margin:auto;" >    
+       
+<div id="items" class="carousel slide" data-ride="carousel" style="margin:10px;padding:10px;">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#items" data-slide-to="0" class="active"></li>
+    <li data-target="#items" data-slide-to="1"></li>
+    <li data-target="#items" data-slide-to="2"></li>
+    <li data-target="#items" data-slide-to="3"></li>
+    <li data-target="#items" data-slide-to="4"></li>
+    <li data-target="#items" data-slide-to="5"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../Images/washingmachine.jpg" style="margin-left:0px;">
+      <img src="../Images/sonyledtv.jpg" ><br>
+      <img src="../Images/airconditioner.jpg" style="margin-left:0px;">
+      <img src="../Images/samsungmicrowaven.jpg">
+      <div class="carousel-caption">
+      <h3 style="color: red;">HOME APPLIANCES</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../Images/menswear1.jpg" >
+      <img src="../Images/womenTshirt.jpg">
+      <img src="../Images/menswear5.jpg">
+      <img src="../Images/saree 2.jpg">
+      <div class="carousel-caption">
+      <h3 style="color: red;">Men's/Women's Costumes</h3>
+      </div>
+    
+    </div>
+    <div class="carousel-item">
+      <img src="../Images/chickenbiriyani.jpg">
+      <img src="../Images/burger.jpg">
+      <img src="../Images/pizza.jpg">
+      <img src="../Images/noodles.jpg">
+      <div class="carousel-caption">
+      <h3 style="color: red;">FOODS</h3>
+      </div>
+    
+    </div>
+    <div class="carousel-item">
+        <img src="../Images/book1.jpg">
+        <img src="../Images/book2.jpg">
+        <img src="../Images/book3.jpg">
+        <img src="../Images/book4.jpg">
+        <div class="carousel-caption">
+      <h3 style="color: red;">BOOKS</h3>
+      </div>
+    
+    </div>
+    <div class="carousel-item">
+        <img src="../Images/toy1.jpg">
+        <img src="../Images/toy2.jpg">
+        <img src="../Images/toy3.jpg">
+        <img src="../Images/MiniMotor.jpg">
+        <div class="carousel-caption">
+      <h3 style="color: red;">TOYS</h3>
+      </div>
+    
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#items" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#items" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+        </div>
+    </div>
+    
+      <div class="footer">
+          <img src="../Images/mail.jpg">
+      
+      <form action="" id="myform">
+         <div class="footer-con">
+          
+        <label for="">Email</label>
+          <input type="email" name="" id="" placeholder="www.@Onlineshopping.com" class="inp" required="">
+        </div>
+        </form>
+      </div>
+      
+      <div id="flexOutput"></div>
+      <div id="finalBill"></div>
+
+        <script src="../JavaScript/myapp.js"></script>
+        
+    
+</body>
+</html>
